@@ -10,7 +10,7 @@ if(format.value == 24){
     ampm.innerHTML= "";
 }
 else{
-    ampm.innerHTML = hrs>12? "pm": "am"; 
+    ampm.innerHTML = hrs>12 ? "am": "pm"; 
 }
 hrs.innerHTML = (currentTime.getHours()<10?"0":"") + currentTime.getHours();
 min.innerHTML = (currentTime.getMinutes()<10?"0":"") + currentTime.getMinutes();
